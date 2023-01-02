@@ -1,0 +1,156 @@
+﻿body {
+    color: antiquewhite;
+    background-color: black;
+    font-family: 'Cascadia Code',sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Californian FB',sans-serif;
+}
+
+em {
+    font-family: FangSong,sans-serif;
+}
+
+hr {
+    height: 1px;
+    background-color: #1E2149;
+    border-color: #1E2149;
+}
+
+/*
+
+.bio {
+    text-align: left;
+    width: 39%
+}
+
+
+
+.bioPic {
+    text-align: right;
+    width: 59%
+}
+
+
+.to50Left {
+    text-align: left;
+    width: 49%
+}
+
+.to50Right {
+    text-align: right;
+    width: 49%
+}
+
+
+.to32Left {
+    text-align: left;
+    width: 32%
+}
+
+.to33Right {
+    text-align: right;
+    width: 33%
+}
+
+.to33Center {
+    text-align: center;
+    width: 33%
+}
+
+     .interest img {
+        width: 97%;             this makes the picture fill 97% of the image, in the interest section, this would be 97% of the 33% of the page.
+        max-width: 450px;
+        height: 250px;
+        object-fit: cover;      This will tell the image to fill the img container (shown the lines above) while maintaining aspect ratio, resulting in cropping to fit
+        border-radius: 10px;    curve and smooth out the edges of the picture
+    }
+*/
+
+.inline div {
+    display: inline-block; /*displays containers side to side*/
+}
+
+/*----------------------------------------------------------------*/
+
+.toCenter {
+    text-align: center;
+}
+
+.toLeft {
+    text-align: left;
+}
+
+.toRight {
+    text-align: right;
+}
+
+/*-------------------------CLASSES--------------------------------*/
+
+
+
+.bioSect img {
+    border-radius: 20px;
+}
+
+/*-------------------BIO---------------------------*/
+.bioFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    max-width: 1300px;
+    margin: 0px auto;
+    gap: 40px;
+}
+
+    .bioFlex div {
+        width: 100%;
+        max-width: 550px;
+        height: 520px;
+        object-fit: contain;
+    }
+
+
+/*-----------------------CLIPS------------------------*/
+.clipsFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 50px;
+}
+
+    .clipsFlex video {
+        width: 100%;
+        max-width: 600px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+/*----------------------IINTEREST------------------------*/
+.interestFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 35px;
+}
+
+    .interestFlex div {
+        width: 100%;
+        max-width: 400px;
+        max-height: 600px;
+    }
+
+    .interestFlex img {
+        width: 100%;
+        max-width: 400px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
