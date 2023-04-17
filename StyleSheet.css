@@ -1,0 +1,248 @@
+﻿body {
+    color: black;
+    background-color: #F9ECEC;
+    font-family: 'Cascadia Code',sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Californian FB',sans-serif;
+}
+
+em {
+    font-family:FangSong,sans-serif;    
+}
+
+hr {
+    height: 1px;
+    background-color: #4C54BB;
+    border-color: #4C54BB;
+}
+
+/*
+
+.bio {
+    text-align: left;
+    width: 39%
+}
+
+
+
+.bioPic {
+    text-align: right;
+    width: 59%
+}
+
+
+.to50Left {
+    text-align: left;
+    width: 49%
+}
+
+.to50Right {
+    text-align: right;
+    width: 49%
+}
+
+
+.to32Left {
+    text-align: left;
+    width: 32%
+}
+
+.to33Right {
+    text-align: right;
+    width: 33%
+}
+
+.to33Center {
+    text-align: center;
+    width: 33%
+}
+
+     .interest img {
+        width: 97%;             this makes the picture fill 97% of the image, in the interest section, this would be 97% of the 33% of the page.
+        max-width: 450px;
+        height: 250px;
+        object-fit: cover;      This will tell the image to fill the img container (shown the lines above) while maintaining aspect ratio, resulting in cropping to fit
+        border-radius: 10px;    curve and smooth out the edges of the picture
+    }
+*/
+
+.inline div{
+    display: inline-block;      /*displays containers side to side*/
+}
+
+/*----------------------------------------------------------------*/
+
+.toCenter {
+    text-align: center;
+}
+
+.toLeft {
+    text-align: left;
+}
+
+.toRight {
+    text-align: right;
+}
+
+/*-------------------------CLASSES--------------------------------*/
+
+
+/*-------------------BIO---------------------------*/
+.bioFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0px auto;
+    gap: 35px;
+    padding:10px 25px;
+}
+
+    .bioFlex div {
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .bioFlex img {
+        width: 100%;
+        max-width: 700px;
+        object-fit: contain;
+    }
+
+/*-----------------------CLIPS------------------------*/
+.clipsFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 50px;
+    
+}
+    .clipsFlex div {
+        width: 100%;
+        max-width: 550px;
+        height: 315px;
+    }
+
+    .clipsFlex video {
+        width: 100%;
+        max-width: 550px;
+        height: 300px;
+        object-fit: cover;
+        /*border: 4px solid #393F87;*/
+    }
+
+    .clipsFlex iframe {
+        width: 100%;
+        max-width: 550px;
+        height: 290px;
+        object-fit: cover;
+    }
+
+/*----------------------INTEREST------------------------*/
+.interestFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 35px;
+}
+    .interestFlex div {
+    width: 100%;
+    max-width: 400px;
+    max-height: 600px;
+    }
+    .interestFlex img {
+        width: 100%;
+        max-width: 400px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        /*box-shadow: black 5px 5px;*/
+        border: 2px solid black;
+    }
+/*------------------------GALLERY---------------------------*/
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 450px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+/*------------------------3POINTREV-------------------------*/
+
+.IIIpointrev {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0px auto;
+    gap: 40px;
+    justify-content: center;
+}
+
+    .IIIpointrev div {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .IIIpointrev img {
+        width: 100%;
+        max-width: 500px;
+        height: 360px;
+        object-fit: cover;
+        border-radius: 10px;
+        /*box-shadow: black 5px 5px;*/
+        border: 2px solid black;
+    }
+
+.explanation {
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 0px 30px 0px 30px;
+    justify-content: center;
+}
+
+    /*----------------------NEXT&PREVIOUS-----------------------*/
+
+    a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+    a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+.previous {
+    background-color: #04AA6D;
+    color: black;
+}
+
+.next {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
