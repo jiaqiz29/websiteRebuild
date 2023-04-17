@@ -1,4 +1,4 @@
-﻿body {
+body {
     color: antiquewhite;
     background-color: black;
     font-family: 'Cascadia Code',sans-serif;
@@ -89,28 +89,27 @@ hr {
 /*-------------------------CLASSES--------------------------------*/
 
 
-
-.bioSect img {
-    border-radius: 20px;
-}
-
 /*-------------------BIO---------------------------*/
 .bioFlex {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     max-width: 1300px;
     margin: 0px auto;
-    gap: 40px;
+    gap: 35px;
+    padding: 10px 25px;
 }
 
     .bioFlex div {
         width: 100%;
         max-width: 550px;
-        height: 520px;
-        object-fit: contain;
     }
 
+    .bioFlex img {
+        width: 100%;
+        max-width: 700px;
+        object-fit: contain;
+    }
 
 /*-----------------------CLIPS------------------------*/
 .clipsFlex {
@@ -123,10 +122,24 @@ hr {
     gap: 50px;
 }
 
+    .clipsFlex div {
+        width: 100%;
+        max-width: 550px;
+        height: 315px;
+    }
+
     .clipsFlex video {
         width: 100%;
-        max-width: 600px;
+        max-width: 550px;
         height: 300px;
+        object-fit: cover;
+        /*border: 4px solid #393F87;*/
+    }
+
+    .clipsFlex iframe {
+        width: 100%;
+        max-width: 550px;
+        height: 290px;
         object-fit: cover;
     }
 
@@ -150,7 +163,9 @@ hr {
     .interestFlex img {
         width: 100%;
         max-width: 400px;
-        height: 200px;
+        height: 300px;
         object-fit: cover;
         border-radius: 10px;
+        /*box-shadow: black 5px 5px;*/
+        border: 2px solid white;
     }
