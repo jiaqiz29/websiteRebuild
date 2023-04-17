@@ -93,7 +93,7 @@ hr {
 .bioFlex {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     max-width: 1300px;
     margin: 0px auto;
     gap: 35px;
@@ -103,7 +103,6 @@ hr {
     .bioFlex div {
         width: 100%;
         max-width: 550px;
-        height: 550px;
     }
 
     .bioFlex img {
@@ -180,8 +179,8 @@ hr {
 
 .gallery img {
     width: 100%;
-    max-width: 400px;
-    height: 300px;
+    max-width: 450px;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid black;
@@ -195,26 +194,31 @@ hr {
     flex-wrap: wrap;
     max-width: 1300px;
     margin: 0px auto;
-    gap: 10px;
-    max-height: 350px;
+    gap: 40px;
     justify-content: center;
 }
 
     .IIIpointrev div {
         width: 100%;
-        max-width: 550px;
-        height: 550px;
+        max-width: 400px;
     }
 
     .IIIpointrev img {
         width: 100%;
-        max-width: 400px;
-        height: 300px;
+        max-width: 500px;
+        height: 360px;
         object-fit: cover;
         border-radius: 10px;
         /*box-shadow: black 5px 5px;*/
         border: 2px solid black;
     }
+
+.explanation {
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 0px 30px 0px 30px;
+    justify-content: center;
+}
 
     /*----------------------NEXT&PREVIOUS-----------------------*/
 
